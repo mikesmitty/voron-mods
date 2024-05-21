@@ -1,0 +1,216 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3a22685f-fb6f-4c54-b509-09f3e7d2168e")
+	(paper "A4")
+	(title_block
+		(title "CANBus Checkpoint")
+		(date "2024-05-18")
+		(rev "v1.0")
+		(comment 1 "creativecommons.org/licenses/by-sa/4.0/")
+		(comment 2 "License: CC BY-SA 4.0")
+		(comment 3 "Author: Michael Smith")
+	)
+	(lib_symbols)
+	(sheet
+		(at 137.16 38.1)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "53de374f-4e35-4c20-b5dc-937a7bba7e36")
+		(property "Sheetname" "MCU"
+			(at 137.16 37.3884 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 137.16 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "checkpoint"
+				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 74.93)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "802d63ea-9e17-41b2-878e-1c963e32b520")
+		(property "Sheetname" "Power"
+			(at 135.89 74.2184 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 135.89 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "checkpoint"
+				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 54.61)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb9e28ec-bb00-462c-bf42-50541cb58205")
+		(property "Sheetname" "CANBUS"
+			(at 135.89 53.8984 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "canbus.kicad_sch"
+			(at 135.89 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "checkpoint"
+				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 54.61)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d0edb953-abc9-4de2-ace2-d042dedd6b65")
+		(property "Sheetname" "USB"
+			(at 170.18 53.8984 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 170.18 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "checkpoint"
+				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 38.1)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "faf9b993-40f7-4f7f-b170-78b70bd55a44")
+		(property "Sheetname" "Thermistors"
+			(at 170.18 37.3884 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermistors.kicad_sch"
+			(at 170.18 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "checkpoint"
+				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
