@@ -4665,7 +4665,7 @@
 	(symbol
 		(lib_id "Diode:SS34")
 		(at 99.06 77.47 0)
-		(mirror x)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4673,7 +4673,7 @@
 		(dnp no)
 		(uuid "7bace2bf-ab90-418e-a3eb-09e17d5688bf")
 		(property "Reference" "D10"
-			(at 99.314 74.676 0)
+			(at 99.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,7 +4681,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 99.314 72.136 0)
+			(at 99.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4689,7 +4689,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 99.06 73.025 0)
+			(at 99.06 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
