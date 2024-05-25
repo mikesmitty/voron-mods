@@ -3730,6 +3730,12 @@
 		(uuid "2a127023-1065-41c8-803e-0d7bc49e1013")
 	)
 	(junction
+		(at 45.72 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c967f38-3832-4481-9e20-254b9683d4b3")
+	)
+	(junction
 		(at 233.68 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3814,10 +3820,22 @@
 		(uuid "c5734730-091e-4dba-b93f-429497070d95")
 	)
 	(junction
+		(at 48.26 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7e36b52-da4b-4751-b711-5cd96c27d0cd")
+	)
+	(junction
 		(at 223.52 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9fbcccd-a045-47da-96ea-2657ff99529d")
+	)
+	(junction
+		(at 39.37 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f12f3519-5a13-47a7-b02f-bbd90c27ff94")
 	)
 	(junction
 		(at 227.33 116.84)
@@ -3913,6 +3931,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 173.99) (xy 45.72 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198bd2e0-5cc4-4d93-a881-b678e2484daf")
+	)
+	(wire
+		(pts
 			(xy 54.61 109.22) (xy 54.61 106.68)
 		)
 		(stroke
@@ -4003,6 +4031,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 187.96) (xy 39.37 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3509f915-cfc3-4e2e-a9b3-2046fc2eeb3b")
+	)
+	(wire
+		(pts
 			(xy 105.41 48.26) (xy 113.03 48.26)
 		)
 		(stroke
@@ -4030,6 +4068,26 @@
 			(type default)
 		)
 		(uuid "37442d05-3bfe-486c-bfff-d054f06fc37f")
+	)
+	(wire
+		(pts
+			(xy 48.26 176.53) (xy 48.26 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41339216-d081-44ee-a6a6-d31c15a23e2a")
+	)
+	(wire
+		(pts
+			(xy 49.53 176.53) (xy 48.26 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4324d4fa-4243-46b8-8412-bf4f18276df2")
 	)
 	(wire
 		(pts
@@ -4163,6 +4221,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 180.34) (xy 39.37 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723576c7-5f8a-47aa-a86c-a26e1f45b72a")
+	)
+	(wire
+		(pts
 			(xy 228.6 55.88) (xy 232.41 55.88)
 		)
 		(stroke
@@ -4253,6 +4321,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 171.45) (xy 49.53 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e03095e-6844-4b97-ba30-521ec861a50a")
+	)
+	(wire
+		(pts
 			(xy 151.13 50.8) (xy 156.21 50.8)
 		)
 		(stroke
@@ -4260,6 +4338,16 @@
 			(type default)
 		)
 		(uuid "9ef50ef9-6789-4703-9737-3938f014c791")
+	)
+	(wire
+		(pts
+			(xy 43.18 168.91) (xy 49.53 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a69c9869-32d1-4785-a467-535244219614")
 	)
 	(wire
 		(pts
@@ -4333,6 +4421,26 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 173.99) (xy 45.72 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff9a9ed-79b1-4436-ad92-ea055571e816")
+	)
+	(wire
+		(pts
+			(xy 43.18 173.99) (xy 45.72 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a16b9e-65da-4746-a847-d9875e4838e0")
+	)
+	(wire
+		(pts
 			(xy 151.13 78.74) (xy 156.21 78.74)
 		)
 		(stroke
@@ -4380,6 +4488,26 @@
 			(type default)
 		)
 		(uuid "e0d08022-bb5f-462c-98c9-00e34499bfb8")
+	)
+	(wire
+		(pts
+			(xy 43.18 176.53) (xy 48.26 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ef2cd5-277c-4c8f-9671-94df834d6299")
+	)
+	(wire
+		(pts
+			(xy 39.37 187.96) (xy 48.26 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0fdda4c-1339-44b4-a0cc-90337859d9f3")
 	)
 	(wire
 		(pts
@@ -5446,7 +5574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bb59000-56b8-4efe-a1e9-df8330d7bc2a")
-		(property "Reference" "R23"
+		(property "Reference" "R25"
 			(at 59.69 73.6599 0)
 			(effects
 				(font
@@ -5626,7 +5754,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "R23")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -5642,7 +5770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bbb3f94-3d89-47d1-b309-c77b52bdb3ed")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 125.73 173.99 0)
 			(effects
 				(font
@@ -5692,7 +5820,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5708,7 +5836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ebb5ed8-0028-490e-8ec4-dee5c16e5abd")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 43.18 106.68 0)
 			(effects
 				(font
@@ -5759,7 +5887,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5774,7 +5902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1175d8a6-0995-450b-8c7b-8adb00a1ff3b")
-		(property "Reference" "R29"
+		(property "Reference" "R31"
 			(at 130.556 161.036 0)
 			(effects
 				(font
@@ -5873,7 +6001,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "R29")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -5889,7 +6017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18ef6bf6-0a97-404c-ab34-98dedc907ff5")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 57.15 85.09 0)
 			(effects
 				(font
@@ -5939,7 +6067,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6154,7 +6282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ba353f6-a96e-4d9d-b48f-82d10c50813d")
-		(property "Reference" "R26"
+		(property "Reference" "R28"
 			(at 105.41 106.6799 0)
 			(effects
 				(font
@@ -6334,7 +6462,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "R26")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -6350,7 +6478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e07af74-9fbc-4429-8644-a0fdc50608ac")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 213.36 99.06 0)
 			(effects
 				(font
@@ -6400,7 +6528,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6416,7 +6544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f2c5771-3984-4aed-b7fb-ac1a0b61e396")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 135.89 162.56 0)
 			(effects
 				(font
@@ -6466,7 +6594,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -6685,7 +6813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "206cdc7a-862a-4655-96b7-9e66f6ace0da")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 154.94 163.83 0)
 			(effects
 				(font
@@ -6736,7 +6864,77 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR042")
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 39.37 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "239fb1c8-3a65-4b0b-b1ef-3bc6445f5bc6")
+		(property "Reference" "R22"
+			(at 41.91 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 41.91 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 41.148 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 39.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d850adda-114e-4587-a48b-e2aa47d16fc8")
+		)
+		(pin "2"
+			(uuid "dd06d45b-a53c-4311-80ee-76ca8b6a599e")
+		)
+		(instances
+			(project "checkpoint"
+				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -6752,7 +6950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2521b464-8a68-4fc9-adc1-d57b4505a932")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 144.78 161.29 0)
 			(effects
 				(font
@@ -6803,7 +7001,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7154,7 +7352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f48a597-17c1-4bac-97ff-96829046c5b8")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 46.99 168.91 0)
 			(effects
 				(font
@@ -7205,7 +7403,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7417,7 +7615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3458daeb-b7da-4c89-b0d3-f61eb27da718")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 133.35 143.51 0)
 			(effects
 				(font
@@ -7467,7 +7665,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -7483,7 +7681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b8b8680-a34a-40bd-badb-3c31434dfd85")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 130.81 34.29 0)
 			(effects
 				(font
@@ -7533,7 +7731,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7940,7 +8138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "478659be-b703-4368-863f-0e382186d9e6")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 78.74 102.87 0)
 			(effects
 				(font
@@ -7991,7 +8189,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8203,7 +8401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5117d6cb-0091-4952-8d5e-1d9377abd1f4")
-		(property "Reference" "R28"
+		(property "Reference" "R30"
 			(at 128.27 175.2599 0)
 			(effects
 				(font
@@ -8302,7 +8500,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "R28")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -8318,7 +8516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5727b051-393a-4055-925d-c00550f1f85b")
-		(property "Reference" "J13"
+		(property "Reference" "J12"
 			(at 59.69 113.0299 90)
 			(effects
 				(font
@@ -8501,7 +8699,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "J13")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -8517,7 +8715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57e982af-e3d9-4271-9334-7134014a9093")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 58.42 33.02 0)
 			(effects
 				(font
@@ -8567,7 +8765,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8582,7 +8780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c64a37b-30ce-4c68-8f01-e8ac9a04ac42")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 232.41 52.07 0)
 			(effects
 				(font
@@ -8632,7 +8830,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -8648,7 +8846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e2a362b-e0e5-4d85-aa3d-96e17279c003")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 97.79 171.45 0)
 			(effects
 				(font
@@ -8699,7 +8897,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8911,7 +9109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "757486b4-750d-4e6a-94f8-69e4c89b03ad")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 36.83 171.45 0)
 			(effects
 				(font
@@ -8962,7 +9160,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8977,7 +9175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "781d4794-e650-4608-81cf-be608cb78937")
-		(property "Reference" "J12"
+		(property "Reference" "J11"
 			(at 50.165 63.5 0)
 			(effects
 				(font
@@ -9155,7 +9353,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "J12")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -9171,7 +9369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ddd3d71-8cb5-40fb-a39d-fb17c5684890")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 53.34 109.22 0)
 			(effects
 				(font
@@ -9222,7 +9420,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9238,7 +9436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f1c4713-8c7d-4333-9d80-01c56e404e5f")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 58.42 50.8 0)
 			(effects
 				(font
@@ -9288,7 +9486,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9304,7 +9502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8292c485-f3f7-472c-a72b-9acf579655ff")
-		(property "Reference" "R22"
+		(property "Reference" "R24"
 			(at 53.34 96.52 90)
 			(effects
 				(font
@@ -9482,7 +9680,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "R22")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -9498,7 +9696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84f60f20-400d-476f-8e0f-a99513258f22")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 41.91 43.18 0)
 			(effects
 				(font
@@ -9548,7 +9746,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9564,7 +9762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b60ca03-c61e-487c-a54f-854348d7a80c")
-		(property "Reference" "R25"
+		(property "Reference" "R27"
 			(at 60.96 96.52 90)
 			(effects
 				(font
@@ -9742,7 +9940,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "R25")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -9946,7 +10144,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 48.26 171.45 0)
+		(at 54.61 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9954,8 +10152,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "961af525-73e5-48f9-a8b6-e62b03524b7f")
-		(property "Reference" "J11"
-			(at 50.8 171.4499 0)
+		(property "Reference" "J13"
+			(at 57.15 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9964,7 +10162,7 @@
 			)
 		)
 		(property "Value" "I2C"
-			(at 50.8 173.9899 0)
+			(at 57.15 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9973,7 +10171,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 48.26 171.45 0)
+			(at 54.61 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9982,7 +10180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 171.45 0)
+			(at 54.61 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9991,7 +10189,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.26 171.45 0)
+			(at 54.61 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10014,7 +10212,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "J11")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -10226,7 +10424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a14bb743-5351-4970-a479-d29336c78870")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 57.15 72.39 0)
 			(effects
 				(font
@@ -10276,7 +10474,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10598,6 +10796,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 34.29 187.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8de6ec9-d1b8-45fb-979b-11a961a01c1d")
+		(property "Reference" "#PWR023"
+			(at 38.1 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 30.48 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 34.29 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76c1526e-181c-4d41-bc8d-1d8b2696166c")
+		)
+		(instances
+			(project "checkpoint"
+				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 223.52 88.9 0)
 		(unit 1)
@@ -10803,7 +11068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b93c8b1c-17a0-4a53-b11c-1ca19c8a828c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 53.34 102.87 0)
 			(effects
 				(font
@@ -10854,7 +11119,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10870,7 +11135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bedd67de-9478-4d82-ad11-182b47fed895")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 213.36 88.9 0)
 			(effects
 				(font
@@ -10920,7 +11185,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -10936,7 +11201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3afac61-5f72-4c8f-a323-9dc5635ca697")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 232.41 62.23 0)
 			(effects
 				(font
@@ -10986,7 +11251,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -11002,7 +11267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5b39e97-f56f-4df4-aa23-5616900359a1")
-		(property "Reference" "R27"
+		(property "Reference" "R29"
 			(at 114.3 33.0199 0)
 			(effects
 				(font
@@ -11182,7 +11447,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "R27")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -11198,7 +11463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8d702b6-aaec-44a8-a4ee-a987b2376e6d")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 102.87 125.73 0)
 			(effects
 				(font
@@ -11248,7 +11513,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -11264,7 +11529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d15c84d6-b820-4abe-88b7-d5cd6f81a49b")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 227.33 110.49 0)
 			(effects
 				(font
@@ -11314,7 +11579,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -11912,6 +12177,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 48.26 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd25eeb5-1e45-452d-b5b3-a58477c719df")
+		(property "Reference" "R23"
+			(at 50.8 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 50.8 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 46.482 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 48.26 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30f7a858-2a17-4af4-a842-b86eac220aa2")
+		)
+		(pin "2"
+			(uuid "d64abbf0-fd16-4cfb-a118-0bad8ddd8500")
+		)
+		(instances
+			(project "checkpoint"
+				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 58.42 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11920,7 +12255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e878e9da-514d-403e-8116-0c32d55cad32")
-		(property "Reference" "R24"
+		(property "Reference" "R26"
 			(at 60.96 31.7499 0)
 			(effects
 				(font
@@ -12100,7 +12435,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "R24")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -12227,7 +12562,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "edf1d87d-3b02-4f4d-8b99-bd8e28300fd0")
-		(property "Reference" "R30"
+		(property "Reference" "R32"
 			(at 237.49 127.254 90)
 			(effects
 				(font
@@ -12324,7 +12659,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "R30")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -12340,7 +12675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f17668fc-73a7-412b-b631-9ae55e8fcd2b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 87.63 168.91 0)
 			(effects
 				(font
@@ -12391,7 +12726,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/53de374f-4e35-4c20-b5dc-937a7bba7e36"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
