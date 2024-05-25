@@ -3948,7 +3948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b5c3ea6-7ebf-4858-b533-d86e86db5168")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR054"
 			(at 38.1 113.03 0)
 			(effects
 				(font
@@ -3999,7 +3999,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/802d63ea-9e17-41b2-878e-1c963e32b520"
-					(reference "#PWR052")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4015,7 +4015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1db46362-f096-430c-98a6-42331c08dcfe")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR061"
 			(at 179.07 100.33 0)
 			(effects
 				(font
@@ -4065,7 +4065,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/802d63ea-9e17-41b2-878e-1c963e32b520"
-					(reference "#PWR059")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4148,7 +4148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cb8379d-9c27-4fa3-b656-6e23db1f19fe")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR055"
 			(at 41.91 127 0)
 			(effects
 				(font
@@ -4198,7 +4198,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/802d63ea-9e17-41b2-878e-1c963e32b520"
-					(reference "#PWR053")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5454,7 +5454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a495cc30-736a-4e5a-8b72-746391c3c88c")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR059"
 			(at 95.25 91.44 0)
 			(effects
 				(font
@@ -5504,7 +5504,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/802d63ea-9e17-41b2-878e-1c963e32b520"
-					(reference "#PWR057")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -6105,7 +6105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c266f082-1a2a-4f86-80d9-77012755101b")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR060"
 			(at 179.07 81.28 0)
 			(effects
 				(font
@@ -6155,7 +6155,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/802d63ea-9e17-41b2-878e-1c963e32b520"
-					(reference "#PWR058")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -6756,7 +6756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea1308b9-0e36-4c6a-9c01-ac2bbe247c73")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR058"
 			(at 60.96 116.84 0)
 			(effects
 				(font
@@ -6806,7 +6806,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/802d63ea-9e17-41b2-878e-1c963e32b520"
-					(reference "#PWR054")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -6822,7 +6822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f60d0247-4327-4474-937b-418196fc5e9e")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR057"
 			(at 62.23 74.93 0)
 			(effects
 				(font
@@ -6873,7 +6873,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/802d63ea-9e17-41b2-878e-1c963e32b520"
-					(reference "#PWR055")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -6888,7 +6888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f845cf02-67b2-4a5e-a5a6-bbc126e83c59")
-		(property "Reference" "J17"
+		(property "Reference" "J19"
 			(at 49.53 72.136 0)
 			(effects
 				(font
@@ -6991,7 +6991,7 @@
 		(instances
 			(project "checkpoint"
 				(path "/3a22685f-fb6f-4c54-b509-09f3e7d2168e/802d63ea-9e17-41b2-878e-1c963e32b520"
-					(reference "J17")
+					(reference "J19")
 					(unit 1)
 				)
 			)
