@@ -2800,7 +2800,7 @@
 	)
 	(global_label "VOUT"
 		(shape input)
-		(at 52.07 95.25 0)
+		(at 52.07 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2810,7 +2810,7 @@
 		)
 		(uuid "0bdf46c6-dae4-4d92-8f5f-9d33a6ad9a6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.7724 95.25 0)
+			(at 59.7724 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +2910,7 @@
 	)
 	(global_label "VIN"
 		(shape input)
-		(at 55.88 77.47 0)
+		(at 55.88 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2920,7 +2920,7 @@
 		)
 		(uuid "e7f1b93a-43b1-4cb5-9eaa-905bededd961")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.8891 77.47 0)
+			(at 61.8891 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +4073,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 92.71 90)
+		(at 52.07 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4082,7 +4082,7 @@
 		(fields_autoplaced yes)
 		(uuid "30012e11-a21c-48e0-b490-4197014876b7")
 		(property "Reference" "#PWR057"
-			(at 58.42 92.71 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4091,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 92.7099 90)
+			(at 55.88 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4100,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 92.71 0)
+			(at 52.07 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 92.71 0)
+			(at 52.07 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4118,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 92.71 0)
+			(at 52.07 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6814,7 +6814,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 74.93 90)
+		(at 55.88 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6823,7 +6823,7 @@
 		(fields_autoplaced yes)
 		(uuid "f60d0247-4327-4474-937b-418196fc5e9e")
 		(property "Reference" "#PWR058"
-			(at 62.23 74.93 0)
+			(at 62.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6832,7 +6832,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 74.9299 90)
+			(at 59.69 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6841,7 +6841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 74.93 0)
+			(at 55.88 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6850,7 +6850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 74.93 0)
+			(at 55.88 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6859,7 +6859,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 74.93 0)
+			(at 55.88 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
