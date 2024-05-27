@@ -4417,7 +4417,7 @@
 				)
 			)
 		)
-		(property "Value" "22uH"
+		(property "Value" "47uH"
 			(at 160.02 74.93 90)
 			(effects
 				(font
@@ -4425,7 +4425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SMMS0530"
+		(property "Footprint" "Library:L_Bourns_SRP7050WA_7.9x7.3mm"
 			(at 160.02 77.47 0)
 			(effects
 				(font
