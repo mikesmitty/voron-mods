@@ -505,7 +505,7 @@
 		(path "/faf9b993-40f7-4f7f-b170-78b70bd55a44/d3cda8c1-6b3f-4fcb-896b-fd9d347a0a27")
 		(sheetname "Thermistors")
 		(sheetfile "thermistors.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.6 -2.75)
 			(end -2.85 -2.75)
@@ -3319,7 +3319,7 @@
 		(path "/bb9e28ec-bb00-462c-bf42-50541cb58205/eac66d12-e15e-4286-a63c-629d2c77537e")
 		(sheetname "CANBUS")
 		(sheetfile "canbus.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -11769,7 +11769,7 @@
 		(path "/faf9b993-40f7-4f7f-b170-78b70bd55a44/db8fc2e0-259c-4207-837d-9fc50d80b201")
 		(sheetname "Thermistors")
 		(sheetfile "thermistors.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.6 -2.75)
 			(end -2.85 -2.75)
@@ -12800,7 +12800,7 @@
 		(path "/bb9e28ec-bb00-462c-bf42-50541cb58205/b52bb4b2-640b-4207-bd6b-27b5210b7951")
 		(sheetname "CANBUS")
 		(sheetfile "canbus.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.56 3.51)
 			(end 5.06 3.51)
@@ -18136,7 +18136,7 @@
 		(path "/802d63ea-9e17-41b2-878e-1c963e32b520/191dc608-32c6-4984-88df-4c765c497136")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.84 4.9)
 			(end -2.34 4.9)
@@ -23273,7 +23273,7 @@
 		(path "/d0edb953-abc9-4de2-ace2-d042dedd6b65/e92e5640-e6dd-4974-8eb6-fb75316ca30b")
 		(sheetname "USB")
 		(sheetfile "usb.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -24167,7 +24167,7 @@
 		(path "/faf9b993-40f7-4f7f-b170-78b70bd55a44/92e657f6-720c-4660-9052-7964c5b24b67")
 		(sheetname "Thermistors")
 		(sheetfile "thermistors.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 3.87)
@@ -25007,7 +25007,7 @@
 		(path "/53de374f-4e35-4c20-b5dc-937a7bba7e36/1af52c9a-793d-4907-9b79-0520e60b6956")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 7.56 3.51)
 			(end 7.56 -2.46)
@@ -27905,7 +27905,7 @@
 		(path "/53de374f-4e35-4c20-b5dc-937a7bba7e36/204c8da4-745d-4b40-9bfe-6ddbcc397582")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -28385,7 +28385,7 @@
 		(path "/faf9b993-40f7-4f7f-b170-78b70bd55a44/f4b9cd1e-a574-42d0-a37e-d1d4fc4cfc2b")
 		(sheetname "Thermistors")
 		(sheetfile "thermistors.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -29236,7 +29236,7 @@
 		(path "/faf9b993-40f7-4f7f-b170-78b70bd55a44/7db4a54b-c348-4a39-a640-f5f48c7c60d4")
 		(sheetname "Thermistors")
 		(sheetfile "thermistors.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.6 -2.75)
 			(end -2.85 -2.75)
@@ -31890,7 +31890,7 @@
 		(path "/faf9b993-40f7-4f7f-b170-78b70bd55a44/ac0e052f-7c17-49a3-b645-d9821f169db5")
 		(sheetname "Thermistors")
 		(sheetfile "thermistors.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -32430,7 +32430,7 @@
 		(path "/802d63ea-9e17-41b2-878e-1c963e32b520/6a616673-7567-4e41-ad38-1c325391f741")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3.76 -1.95)
 			(end -3.76 -3.16)
@@ -33635,7 +33635,7 @@
 		(path "/53de374f-4e35-4c20-b5dc-937a7bba7e36/781d4794-e650-4608-81cf-be608cb78937")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -36874,7 +36874,7 @@
 		(path "/53de374f-4e35-4c20-b5dc-937a7bba7e36/d7a31801-b4ed-4918-93a8-bd38de46ee79")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 7.56 3.51)
 			(end 7.56 -2.46)
@@ -37916,7 +37916,7 @@
 		(path "/faf9b993-40f7-4f7f-b170-78b70bd55a44/c1ac9183-c6ec-4af5-9907-e8908bd2bd22")
 		(sheetname "Thermistors")
 		(sheetfile "thermistors.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.6 -2.75)
 			(end -2.85 -2.75)
@@ -41761,7 +41761,7 @@
 		(path "/53de374f-4e35-4c20-b5dc-937a7bba7e36/961af525-73e5-48f9-a8b6-e62b03524b7f")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.6 -2.75)
 			(end -2.85 -2.75)
@@ -45613,7 +45613,7 @@
 		(path "/faf9b993-40f7-4f7f-b170-78b70bd55a44/2553ed04-9208-447b-bb56-c1e1ad7332bb")
 		(sheetname "Thermistors")
 		(sheetfile "thermistors.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 6.41)
@@ -47662,7 +47662,7 @@
 		(path "/faf9b993-40f7-4f7f-b170-78b70bd55a44/92fea440-50b9-4d25-968b-499c35277e08")
 		(sheetname "Thermistors")
 		(sheetfile "thermistors.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.6 -2.75)
 			(end -2.85 -2.75)
@@ -48193,7 +48193,7 @@
 		(path "/802d63ea-9e17-41b2-878e-1c963e32b520/f845cf02-67b2-4a5e-a5a6-bbc126e83c59")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.685 2.58)
 			(end 5.265 2.58)
@@ -48837,7 +48837,7 @@
 		(path "/53de374f-4e35-4c20-b5dc-937a7bba7e36/5727b051-393a-4055-925d-c00550f1f85b")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.559999 -9.31)
 			(end 2.5 -9.31)
