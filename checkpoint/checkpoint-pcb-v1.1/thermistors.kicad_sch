@@ -4083,7 +4083,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 220.98 119.3799 0)
 			(effects
 				(font
@@ -7795,7 +7795,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 42.164 97.282 0)
 			(effects
 				(font
@@ -8708,7 +8708,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 42.164 121.412 0)
 			(effects
 				(font
@@ -9485,7 +9485,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 42.164 47.752 0)
 			(effects
 				(font
@@ -10012,7 +10012,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 176.53 68.58 90)
 			(effects
 				(font
@@ -11189,7 +11189,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 176.53 80.01 90)
 			(effects
 				(font
@@ -12164,7 +12164,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 42.164 73.152 0)
 			(effects
 				(font
