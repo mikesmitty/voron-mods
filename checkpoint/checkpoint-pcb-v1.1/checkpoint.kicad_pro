@@ -548,7 +548,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "checkpoint.step",
+      "step": "../CAD/checkpoint.step",
       "svg": "",
       "vrml": ""
     },
