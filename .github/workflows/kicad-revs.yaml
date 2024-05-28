@@ -41,7 +41,7 @@ jobs:
             exit
           fi
           # Update the revision in the KiCad files
-          find "$PROJECT_DIR" -regextype egrep -regex ".*.kicad_(sch|pcb)" -exec sed -i "s/\\(rev \".*\"/(rev \"v$VERSION\"/" {} \;
+          find "$PROJECT_DIR" -regextype egrep -regex ".*\.kicad_(sch|pcb)" -print -exec sed -i "s/(rev \".*\"/(rev \"v$VERSION\"/" {} \;
         env:
           TITLE: ${{ github.event.pull_request.title }}
 

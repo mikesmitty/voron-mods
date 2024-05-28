@@ -53,4 +53,4 @@ jobs:
     - name: Update KiCad file dates
       run: |
         TODAY=$(date +%F)
-        sed -i "s/\(date \".*\"/\(date \"$TODAY\"/" ${{ matrix.file }}
+        sed -i "s/(date \".*\"/(date \"$TODAY\"/" ${{ matrix.file }}
