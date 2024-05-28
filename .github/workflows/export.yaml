@@ -81,6 +81,10 @@ jobs:
           cache3D: YES
           verbose: 4
 
+      - run: |
+          echo ${{ steps.find-pcb.outputs.dir }}
+          ls -l ${{ steps.find-pcb.outputs.dir }}
+
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
