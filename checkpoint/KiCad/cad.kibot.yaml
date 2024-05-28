@@ -9,6 +9,5 @@ outputs:
   - name: "step_file_export"
     comment: "Exports the PCB in STEP format"
     type: step
-    dir: "../CAD/"
     options:
       origin: "drill"
