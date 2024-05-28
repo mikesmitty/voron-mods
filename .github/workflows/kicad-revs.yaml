@@ -26,6 +26,7 @@ jobs:
           json: true
 
       - name: Update KiCad revisions
+        if: ${{ fromJson(steps.changed-files.outputs.any-changed) }}
         run: |
           cat <<EOF
           ${{ steps.changed-files.outputs.all_changed_files }}
