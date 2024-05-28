@@ -1,9 +1,8 @@
 on:
-  push:
-    branches:
-      - release-please--branches--main
   pull_request:
-   types: [opened, synchronize]
+   types:
+    - opened
+    - synchronize
 
 name: KiCad Revision Update
 
