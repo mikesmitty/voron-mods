@@ -33,7 +33,10 @@ jobs:
       - name: Update KiCad revisions
         if: ${{ steps.release-please.outputs.prs_created }}
         run: |
-          PROJECT_DIR="$(echo ${{ toJson(steps.changed-files.outputs.all_changed_files) }} | jq -r '.[0]')"
+          cat <<EOF
+          ${{ steps.changed-files.outputs.all_changed_files }}
+          EOF
+          PROJECT_DIR="$(echo ${{ steps.changed-files.outputs.all_changed_files }} | jq -r '.[0]')"
           VERSION="$(echo ${{ toJson(steps.release-please.outputs.pr) }} | jq -r '.title' | awk '{print $NF}')"
           # Update the revision in the KiCad files
           find "$PROJECT_DIR" -regextype egrep -regex ".*.kicad_(sch|pcb)" -exec sed -i "s/\(rev \"v[0-9.]*\"/\(rev \"v$VERSION\"/" {} \;
