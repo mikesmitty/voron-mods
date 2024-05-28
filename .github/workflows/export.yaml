@@ -49,6 +49,10 @@ jobs:
       max-parallel: 4
       fail-fast: false
 
+    defaults:
+      run:
+        working-directory: ${{ matrix.files }}
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -65,8 +69,7 @@ jobs:
       - name: Run KiBot
         uses: INTI-CMNB/KiBot@v2_k8
         with:
-          config: ./${{ matrix.files }}/cad.kibot.yaml
-          dir: ${{ matrix.files }}
+          config: cad.kibot.yaml
           cache3D: YES
           verbose: 4
 
