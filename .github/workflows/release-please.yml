@@ -20,11 +20,20 @@ jobs:
         with:
           fetch-depth: 0
 
-      - run: |
-          echo "PRs created: ${{ steps.release-please.outputs.prs_created }}"
-          echo "Releases created: ${{ steps.release-please.outputs.releases_created }}"
-          PR_TITLE="$(echo ${{ toJson(steps.release-please.outputs.pr) }} | jq -r '.title')"
-          VERSION="$(echo "$PR_TITLE" | awk '{print $NR}')"
-          echo Title: $PR_TITLE
-          echo Version: $VERSION
-      
+      - name: Get release directory
+        if: ${{ steps.release-please.outputs.prs_created }}
+        id: changed-files
+        uses: tj-actions/changed-files@v44
+        with:
+          dir_names: true
+          files: |
+            **/CHANGELOG.md
+          json: true
+
+      - name: Update KiCad revisions
+        if: ${{ steps.release-please.outputs.prs_created }}
+        run: |
+          PROJECT_DIR="$(echo ${{ toJson(steps.changed-files.outputs.all_changed_files) }} | jq -r '.[0]')"
+          VERSION="$(echo ${{ toJson(steps.release-please.outputs.pr) }} | jq -r '.title' | awk '{print $NF}')"
+          # Update the revision in the KiCad files
+          find "$PROJECT_DIR" -regextype egrep -regex ".*.kicad_(sch|pcb)" -exec sed -i "s/\(rev \"v[0-9.]*\"/\(rev \"v$VERSION\"/" {} \;
