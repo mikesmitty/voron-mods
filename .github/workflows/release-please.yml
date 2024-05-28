@@ -23,7 +23,7 @@ jobs:
       - run: |
           echo "PRs created: ${{ steps.release-please.outputs.prs_created }}"
           echo "Releases created: ${{ steps.release-please.outputs.releases_created }}"
-          PR_TITLE="${{ steps.release-please.outputs.pr.title }}"
-          echo $PR_TITLE
-          echo $PR_TITLE | awk '{print $NR}'
+          PR_TITLE="$(echo ${{ toJson(steps.release-please.outputs.pr) }} | jq -r '.title')"
+          echo Title: $PR_TITLE
+          echo Version: $(echo $PR_TITLE | awk '{print $NR}')
       
