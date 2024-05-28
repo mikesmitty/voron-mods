@@ -66,11 +66,12 @@ jobs:
         id: find-pcb
         run: |
           BOARD=$(ls -1 ./${{ matrix.files }}/*.kicad_pcb | head -n 1)
+          BOARD=$(realpath -s --relative-to="$PWD" "$BOARD")
           echo "board=$BOARD" >> "$GITHUB_OUTPUT"
 
           # Canonicalize the CAD path
           DIR=$(readlink -f ./${{ matrix.files }}/../CAD/)
-          DIR=$(realpath -s --relative-to="${{ matrix.files }}" "$DIR")
+          DIR=$(realpath -s --relative-to="$PWD" "$DIR")
           echo "dir=$DIR" >> "$GITHUB_OUTPUT"
 
       - name: Run KiBot
