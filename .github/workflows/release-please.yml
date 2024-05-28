@@ -23,5 +23,5 @@ jobs:
       - run: |
           echo "PRs created: ${{ steps.release-please.outputs.prs_created }}"
           echo "Releases created: ${{ steps.release-please.outputs.releases_created }}"
-          echo ${{ toJson(steps.release-please.outputs) }}
+          echo ${{ toJson(steps.release-please.outputs.pr) }} | jq .
       
