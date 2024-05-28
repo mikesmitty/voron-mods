@@ -9,7 +9,7 @@ on:
       - '*.kicad_pcb'
 
 
-name: KiCad Date Updates
+name: KiCad Date Update
 
 jobs:
   get-changed-files:

@@ -26,13 +26,20 @@ jobs:
           json: true
 
       - name: Update KiCad revisions
-        if: ${{ fromJson(steps.changed-files.outputs.any-changed) }}
         run: |
           cat <<EOF
           ${{ steps.changed-files.outputs.all_changed_files }}
           EOF
           PROJECT_DIR="$(echo ${{ steps.changed-files.outputs.all_changed_files }} | jq -r '.[0]')"
           VERSION="$(echo $TITLE | awk '{print $NF}')"
+          if [ -z "$VERSION" ]; then
+            echo "No version found in PR title, skipping"
+            exit
+          fi
+          if [ -z "$PROJECT_DIR" ]; then
+            echo "No project dir found, skipping"
+            exit
+          fi
           # Update the revision in the KiCad files
           find "$PROJECT_DIR" -regextype egrep -regex ".*.kicad_(sch|pcb)" -exec sed -i "s/\\(rev \".*\"/(rev \"v$VERSION\"/" {} \;
         env:
