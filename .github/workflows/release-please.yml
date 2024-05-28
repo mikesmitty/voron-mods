@@ -13,30 +13,3 @@ jobs:
         id: release-please
         with:
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
-
-      - name: Checkout
-        if: ${{ steps.release-please.outputs.prs_created || steps.release-please.outputs.releases_created }}
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Get release directory
-        if: ${{ steps.release-please.outputs.prs_created }}
-        id: changed-files
-        uses: tj-actions/changed-files@v44
-        with:
-          dir_names: true
-          files: |
-            **/CHANGELOG.md
-          json: true
-
-      - name: Update KiCad revisions
-        if: ${{ steps.release-please.outputs.prs_created }}
-        run: |
-          cat <<EOF
-          ${{ steps.changed-files.outputs.all_changed_files }}
-          EOF
-          PROJECT_DIR="$(echo ${{ steps.changed-files.outputs.all_changed_files }} | jq -r '.[0]')"
-          VERSION="$(echo ${{ toJson(steps.release-please.outputs.pr) }} | jq -r '.title' | awk '{print $NF}')"
-          # Update the revision in the KiCad files
-          find "$PROJECT_DIR" -regextype egrep -regex ".*.kicad_(sch|pcb)" -exec sed -i "s/\(rev \"v[0-9.]*\"/\(rev \"v$VERSION\"/" {} \;
