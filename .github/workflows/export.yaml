@@ -68,16 +68,22 @@ jobs:
           BOARD=$(ls -1 ./${{ matrix.files }}/*.kicad_pcb | head -n 1)
           echo "board=$BOARD" >> "$GITHUB_OUTPUT"
 
+          # Canonicalize the CAD path
+          DIR=$(readlink -f ./${{ matrix.files }}/../CAD/)
+          echo "dir=$DIR" >> "$GITHUB_OUTPUT"
+
       - name: Run KiBot
         uses: INTI-CMNB/KiBot@v2_k8
         with:
           board: ${{ steps.find-pcb.outputs.board }}
           config: ./${{ matrix.files }}/cad.kibot.yaml
+          dir: ${{ steps.find-pcb.outputs.dir }}
           cache3D: YES
           verbose: 4
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
+          add: ./${{ matrix.files }}/../CAD/
           default_author: github_actor
           message: "chore: KiBot update"
