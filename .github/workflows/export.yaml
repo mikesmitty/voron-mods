@@ -62,10 +62,16 @@ jobs:
           path: ~/cache_3d
           key: cache_3d
 
+      - name: Find PCB file
+        id: find-pcb
+        run: |
+          BOARD=$(ls -1 ./${{ matrix.files }}/*.kicad_pcb | head -n 1)
+          echo "board=$BOARD" >> "$GITHUB_OUTPUT"
+
       - name: Run KiBot
         uses: INTI-CMNB/KiBot@v2_k8
         with:
-          board: ./${{ matrix.files }}/*.kicad_pcb
+          board: ${{ steps.find-pcb.outputs.board }}
           config: ./${{ matrix.files }}/cad.kibot.yaml
           cache3D: YES
           verbose: 4
