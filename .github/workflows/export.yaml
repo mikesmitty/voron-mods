@@ -65,7 +65,7 @@ jobs:
       - name: Run KiBot
         uses: INTI-CMNB/KiBot@v2_k8
         with:
-          config: cad.kibot.yaml
+          config: ./${{ matrix.files }}/cad.kibot.yaml
           dir: ${{ matrix.files }}
           cache3D: YES
           verbose: 4
