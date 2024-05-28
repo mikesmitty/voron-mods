@@ -23,7 +23,7 @@ jobs:
       - run: |
           echo "PRs created: ${{ steps.release-please.outputs.prs_created }}"
           echo "Releases created: ${{ steps.release-please.outputs.releases_created }}"
-          cat <<EOF
-          ${{ toJson(steps.release-please.outputs) }} | jq .
-          EOF
+          PR_TITLE="${{ steps.release-please.outputs.pr.title }}"
+          echo $PR_TITLE
+          echo $PR_TITLE | awk '{print $NR}'
       
