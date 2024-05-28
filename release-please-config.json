@@ -1,0 +1,8 @@
+{
+    "packages": {
+        "checkpoint": {
+            "include-component-in-tag": true,
+            "release-type": "simple"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+on:
+  push:
+    branches:
+      - main
+
+name: Release Please
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v4
+        id: release-please
+        with:
+          token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
+
+      - name: Checkout
+        if: ${{ steps.release-please.outputs.prs_created || steps.release-please.outputs.releases_created }}
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - run: |
+          echo "PRs created: ${{ steps.release-please.outputs.prs_created }}"
+          echo "Releases created: ${{ steps.release-please.outputs.releases_created }}"
+          echo ${{ steps.release-please.outputs }}
+      
