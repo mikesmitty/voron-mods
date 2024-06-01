@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "EZ Servo")
-		(date "2024-05-30")
+		(date "2024-05-29")
 		(rev "v0.0.0")
 		(comment 1 "creativecommons.org/licenses/by-sa/4.0/")
 		(comment 2 "License: CC BY-SA 4.0")
