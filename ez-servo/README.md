@@ -20,3 +20,6 @@ Parts that need to be sourced if assembled by JLC:
 #pin: mmb:PD0  # EZ Driver3
 #pin: mmb:PB6  # EZ Driver4
 ```
+
+# Development
+View this project on [CADLAB.io](https://cadlab.io/project/28137/main/files/ez-servo/KiCad). 
