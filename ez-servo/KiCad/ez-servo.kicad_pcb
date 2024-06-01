@@ -3211,7 +3211,7 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "9e18c206-24d3-42a3-9f4d-f01721ec66ee")
+			(uuid "28d40c5b-b575-438d-95ae-70df82584c4b")
 			(effects
 				(font
 					(size 1 1)
@@ -3224,7 +3224,7 @@
 			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "f587c536-e9f7-4c0c-aedc-106fd9c6fbd7")
+			(uuid "281b4b28-1cd7-477e-8c8d-4f55548732e4")
 			(effects
 				(font
 					(size 1 1)
@@ -3238,7 +3238,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0bd119d7-0752-4e80-82e3-d79cd9fc5abb")
+			(uuid "9a26fd2c-3b8e-46dc-8de1-c922f885f0e4")
 			(effects
 				(font
 					(size 1 1)
@@ -3252,7 +3252,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9f51915e-8afa-46f9-866d-f3a0d23609fb")
+			(uuid "7bdddff8-9a9b-4815-a72c-3fb956e71a50")
 			(effects
 				(font
 					(size 1 1)
@@ -3266,7 +3266,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ebd4702a-0f0a-4d61-9374-44becaa245f0")
+			(uuid "323f53b8-4c45-4527-b74a-cbcb6fd098d0")
 			(effects
 				(font
 					(size 1 1)
@@ -3288,7 +3288,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "7c26b3c5-40b2-4b7f-9627-b26e37fde8e8")
+			(uuid "26fde703-c82a-4726-a2bc-4330190b8688")
 		)
 		(fp_line
 			(start 10 1.5)
@@ -3298,37 +3298,59 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "53d00306-fa99-4081-b075-000ee91954e5")
+			(uuid "32ed74af-ca12-480a-88fc-2fd5eda6325c")
 		)
 		(fp_line
 			(start 8.5 0)
-			(end 8.5 -3)
+			(end 8.5 -2.5)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d4ec18f9-10fe-4b87-b3a5-f325971e4094")
+			(uuid "651cbbdb-9a70-4d49-a0fa-89853939a1a3")
 		)
 		(fp_line
-			(start 8.5 -3)
-			(end -8.5 -3)
+			(start 8 -3)
+			(end -8 -3)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "f5bc21c4-0ec2-4740-b47c-3a4e9bc6b208")
+			(uuid "e5bbb17f-bc90-448a-bd2f-da80e1ab8683")
 		)
 		(fp_line
-			(start -8.5 -3)
+			(start -8.5 -2.5)
 			(end -8.5 2)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "2c45b1a6-13df-4635-a55c-c01c1a7f7b06")
+			(uuid "f51a738a-d15c-4a2e-8a31-b17e1217127f")
+		)
+		(fp_arc
+			(start 8 -3)
+			(mid 8.353553 -2.853553)
+			(end 8.5 -2.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ac81406f-7459-461b-a745-e22ff16b5156")
+		)
+		(fp_arc
+			(start -8.5 -2.5)
+			(mid -8.353553 -2.853553)
+			(end -8 -3)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d4f6fd96-4650-40f5-9b89-445d632c27de")
 		)
 		(fp_line
 			(start 10 2)
@@ -3338,13 +3360,13 @@
 				(type default)
 			)
 			(layer "B.Fab")
-			(uuid "1d745d2d-f2c0-4eb2-b0d6-688d41c18e3e")
+			(uuid "5830a3de-4f16-4b7b-89e9-7fb988ad1742")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "8dfd3422-5ced-4133-96b8-74f48b3cde7e")
+			(uuid "e285e699-f864-4cf2-ad32-d865146ffff8")
 			(effects
 				(font
 					(size 1 1)
@@ -3371,7 +3393,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "e8925bd3-dad1-4e06-a46a-dd85bee891c7")
+			(uuid "ed8013e3-affb-4714-b632-f1cb38d3b9e3")
 		)
 		(pad "2" connect rect
 			(at -5.25 0 180)
@@ -3391,7 +3413,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "afb02cd4-2a20-480e-9c3e-1af2e3b8747b")
+			(uuid "3344424c-24ae-4cb3-a05b-dc56439a110d")
 		)
 		(pad "3" connect rect
 			(at -3.25 0 180)
@@ -3411,7 +3433,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "ebf1cca7-7241-429e-ab96-96a07f5d4c30")
+			(uuid "112778be-918b-4d86-9d13-31c7ccdee481")
 		)
 		(pad "4" connect rect
 			(at -1.25 0 180)
@@ -3431,7 +3453,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "d7be3176-f31d-48c1-aafe-b15ed9c0ad00")
+			(uuid "3a5c33c6-2893-4fdb-bb9b-2d45633dc1bf")
 		)
 		(pad "5" connect rect
 			(at 0.75 0 180)
@@ -3451,7 +3473,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "ad3733d0-a88b-48f6-9cbe-964058791399")
+			(uuid "8741e1ca-ed45-4194-a367-bf8d30f56d29")
 		)
 		(pad "6" connect rect
 			(at 2.75 0 180)
@@ -3471,7 +3493,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "179e02d7-fe66-4712-9a23-f04f18467636")
+			(uuid "39731b38-5aec-48b9-8d9e-4045a6d476a8")
 		)
 		(pad "7" connect rect
 			(at 4.75 0 180)
@@ -3491,7 +3513,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "b2ef1294-7aed-481b-aedb-fb7ab8599f35")
+			(uuid "ae0bbb30-4fb1-4c11-9c3b-b8db1080ad27")
 		)
 		(pad "8" connect rect
 			(at 6.75 0 180)
@@ -3511,7 +3533,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "c55e3bd8-576b-421d-b7f8-6070b6370b73")
+			(uuid "be23961c-a81e-4343-bc1b-aefd8c5a309d")
 		)
 		(pad "9" connect rect
 			(at 6.75 0 180)
@@ -3531,7 +3553,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "4b4a11f5-e90e-47d3-96ed-0801918adbd3")
+			(uuid "24def7a5-0d4b-4d22-b30e-dfea3230d7fa")
 		)
 		(pad "10" connect rect
 			(at 4.75 0 180)
@@ -3551,7 +3573,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "ae97ba7d-123e-4725-a532-9b0cf0017210")
+			(uuid "4b6855cc-4bfa-4787-828b-4d60b9c304ce")
 		)
 		(pad "11" connect rect
 			(at 2.75 0 180)
@@ -3571,7 +3593,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "98671126-4618-4f5d-b255-e66e7916ff95")
+			(uuid "2e28c073-3168-4897-8cab-4dc2130bfee3")
 		)
 		(pad "12" connect rect
 			(at 0.75 0 180)
@@ -3591,7 +3613,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "ae8039ec-b204-4f68-a63f-526a48380662")
+			(uuid "ecd6de50-e945-4404-b053-e19dcf60c854")
 		)
 		(pad "13" connect rect
 			(at -1.25 0 180)
@@ -3611,7 +3633,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "db36a711-3b70-4bdb-b025-08c37e2f169b")
+			(uuid "c4839304-9b86-42fa-8a71-33cd35fb7b8b")
 		)
 		(pad "14" connect rect
 			(at -3.25 0 180)
@@ -3631,7 +3653,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "dcaa1605-fd18-400d-af0d-40ad41438e74")
+			(uuid "9d92304c-7ec4-47ae-a801-d64bb4d101d3")
 		)
 		(pad "15" connect rect
 			(at -5.25 0 180)
@@ -3651,7 +3673,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "9b885273-ba01-4f98-8420-1db096c37fbc")
+			(uuid "b04a70df-e893-48b2-8914-150841ca5237")
 		)
 		(pad "16" connect rect
 			(at -7.25 0 180)
@@ -3671,7 +3693,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections yes)
 			)
-			(uuid "72facf3e-04e2-40ef-b2cc-1395d0dc41cd")
+			(uuid "15f36fff-c456-4b8a-82cd-db47b1cf2867")
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
