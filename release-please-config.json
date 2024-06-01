@@ -4,5 +4,9 @@
             "include-component-in-tag": true,
             "release-type": "simple"
         }
+        "ez-servo": {
+            "include-component-in-tag": true,
+            "release-type": "simple"
+        }
     }
 }
