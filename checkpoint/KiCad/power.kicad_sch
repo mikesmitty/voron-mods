@@ -3498,7 +3498,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS210"
+		(property "Value" "SS54"
 			(at 154.94 88.5824 90)
 			(effects
 				(font
@@ -4680,7 +4680,7 @@
 				)
 			)
 		)
-		(property "Value" "SS34"
+		(property "Value" "SS54"
 			(at 99.06 74.93 0)
 			(effects
 				(font
