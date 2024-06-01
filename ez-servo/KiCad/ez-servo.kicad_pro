@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -60,9 +60,9 @@
       ],
       "drc_exclusions": [
         "lib_footprint_mismatch|29150000|29375000|a63eb8eb-f0a7-4b21-ae3e-1cc2720a8cfb|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|34250000|42487500|8eec3069-e0be-4712-a8d0-92c743a6d416|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|40000000|29100000|3534d68f-6054-4692-bdae-97928da73c81|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|40675000|31555000|ec1642f0-04d6-47dc-8299-5e11bb1c0afa|00000000-0000-0000-0000-000000000000",
-        "text_on_edge_cuts|55260000|43540000|197c6b21-30ae-42ac-acb0-3d3f14023f8b|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_mismatch|40675000|31555000|ec1642f0-04d6-47dc-8299-5e11bb1c0afa|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -185,7 +185,8 @@
         0.0,
         0.25,
         0.6,
-        1.0
+        1.0,
+        1.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {

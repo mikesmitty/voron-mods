@@ -7,6 +7,3 @@ SS54,D1,D_SMA,C22452
 56K,R1,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C23206
 100nF,C2,C_0805_2012Metric,C28233
 TPS5430DDA,U1,TI_SO-PowerPAD-8_ThermalVias,C9864
-47uH,L1,L_Bourns_SRP7050WA_7.9x7.3mm,
-SERVO,J2,PinHeader_1x03_P2.54mm_Vertical,
-VSEL,J3,PinHeader_1x03_P2.54mm_Horizontal,
