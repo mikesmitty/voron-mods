@@ -4794,7 +4794,7 @@
 	)
 	(gr_text "1.5mm pins\n0.5mm spacing\n8x each side\n4mm tall\n1mm from bottom\n1mm from keyed edge\n7.5mm thick at heatsink"
 		(at 55.26 43.54 0)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "197c6b21-30ae-42ac-acb0-3d3f14023f8b")
 		(effects
 			(font
