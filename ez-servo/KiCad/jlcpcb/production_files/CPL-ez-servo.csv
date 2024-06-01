@@ -1,12 +1,12 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-C1,10uF,C_0805_2012Metric,34.7,-35.6,90.0,top
+C1,10uF,C_0805_2012Metric,34.63,-35.57,90.0,top
 C2,100nF,C_0805_2012Metric,34.65,-33.24,180.0,bottom
 C3,100uF,C_1206_3216Metric,31.78,-27.62,90.0,top
 C4,100uF,C_1206_3216Metric,34.09,-27.62,90.0,top
 C5,10uF,C_0805_2012Metric,33.53,-30.92,0.0,top
 C6,10uF,C_0805_2012Metric,33.53,-32.89,0.0,top
 D1,SS54,D_SMA,34.41,-28.76,90.0,bottom
-R1,56K,R_0805_2012Metric,43.07,-33.95,0.0,top
-R2,10K,R_0805_2012Metric,35.4,-35.9,270.0,bottom
-R3,39K,R_0805_2012Metric,39.7,-33.95,180.0,top
+R1,56K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,42.9,-33.95,0.0,top
+R2,10K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,35.4,-36.07,270.0,bottom
+R3,39K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,39.19,-33.95,180.0,top
 U1,TPS5430DDA,TI_SO-PowerPAD-8_ThermalVias,29.9,-36.63,0.0,top
