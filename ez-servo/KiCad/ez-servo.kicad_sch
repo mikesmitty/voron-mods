@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "d2a470d4-3f75-430d-ade7-9295b060ae03")
 	(paper "A4")
+	(title_block
+		(title "EZ Servo")
+		(comment 1 "creativecommons.org/licenses/by-sa/4.0/")
+		(comment 2 "License: CC BY-SA 4.0")
+		(comment 3 "Author: Michael Smith")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
